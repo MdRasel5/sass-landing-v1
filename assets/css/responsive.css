@@ -14,10 +14,13 @@
 
 /* Tablet desktop :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
+
+    /* Header Area */
     .header-area {
         padding-top: 0;
         background-image: none;
         background-color: #fff;
+
     }
 
     .header-top {
@@ -33,16 +36,33 @@
         display: block;
         margin-bottom: 75px;
     }
+
+    /* Dashbaord Feature Area */
+    .dashboard-feature .dashboard-feature-image {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
 }
 
 
 /* small mobile :320px. */
 @media (max-width: 767px) {
 
+    /* Header Area */
+    .common-btn {
+        padding: 10px 14px;
+    }
+
     .header-area {
         padding-top: 0;
         background-image: none;
         background-color: #fff;
+        height: 85vh;
+    }
+
+    .header-area .header-bottom h1 {
+        font-size: 42px;
     }
 
     .header-top {
@@ -54,11 +74,46 @@
         visibility: hidden;
     }
 
+    .header-area .header-bottom form input[type="submit"] {
+        top: 20%;
+    }
+
     .mobile-menu {
         margin-bottom: 75px;
         display: block;
     }
 
+    /* App Features Area */
+    .app-features {
+        padding: 50px 15px;
+    }
+
+    .app-features .app-feature-content h2 {
+        font-size: 32px;
+    }
+
+    .app-features .single-feature {
+        padding: 40px;
+    }
+
+    /* Dashbaord Feature Area */
+    .dashboard-features {
+        padding: 50px 15px;
+    }
+
+    .dashboard-feature .dashboard-feature-content h2 {
+        font-size: 32px;
+    }
+
+    .dashboard-feature .dashboard-feature-image {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    /* Dashboard Feature Part Two */
+    .dashboard-features-two {
+        padding: 50px 15px;
+    }
 }
 
 /* Large Mobile :480px. */
@@ -67,8 +122,15 @@
         width: 450px;
     }
 
+    /* Header Area */
     .header-area {
         padding-top: 0;
+        padding: 0 15px;
+        height: 80vh;
+    }
+
+    .header-area .header-bottom h1 {
+        font-size: 42px;
     }
 
     .header-top {
@@ -84,4 +146,16 @@
         display: block;
         margin-bottom: 75px;
     }
+
+    /* App Features Area */
+    .app-features {
+        padding: 50px 15px;
+    }
+
+    /* Dashbaord Feature Area */
+    .dashboard-features {
+        padding: 50px 15px;
+    }
+
+
 }

@@ -15,6 +15,7 @@
     1.0 Common CSS
     2.0 Header Area
     3.0 App Feature Area
+    4.0 Dashboard Features Area
         
 /*---------------------------------------
     1.0 Common CSS
@@ -46,6 +47,7 @@ ul {
     border-radius: 5px;
     font-weight: 500;
     font-size: 14px;
+    transition: .5s;
 }
 
 .common-btn:hover {
@@ -57,7 +59,11 @@ ul {
     align-items: center;
 }
 
-l {
+.fix {
+    overflow: hidden;
+}
+
+ul {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -93,7 +99,7 @@ button {
     color: #29da77;
 }
 
-.comoon-bg {
+.common-bg {
     background-color: #f3f7ff;
 }
 
@@ -105,8 +111,16 @@ button {
     padding-top: 130px;
 }
 
+.pt-140 {
+    padding-top: 140px;
+}
+
 .pb-100 {
     padding-bottom: 100px;
+}
+
+.pb-150 {
+    padding-bottom: 150px;
 }
 
 /*---------------------------------------
@@ -321,4 +335,59 @@ button {
     font-size: 16px;
     color: #585858;
     font-weight: normal;
+}
+
+/*---------------------------------------
+    4.0 Dashboard Features Area
+-----------------------------------------*/
+.dashboard-feature .dashboard-feature-image {
+    margin-right: 20px;
+}
+
+.dashboard-feature .dashboard-feature-image img {
+    width: 100%;
+}
+
+.dashboard-feature .dashboard-feature-content .small-p {
+    font-size: 14px;
+    color: #29da77;
+    font-weight: bold;
+}
+
+.dashboard-feature .dashboard-feature-content h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.dashboard-feature .feature-list {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.dashboard-feature .feature-list img {
+    margin-right: 20px;
+}
+
+.dashboard-feature .feature-list h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2b2e35;
+    margin-bottom: 15px;
+}
+
+.dashboard-feature .feature-list p {
+    font-size: 14px;
+    color: #2b2e35;
+}
+
+/* Dashobard Features Part Two */
+.dashboard-features-two .feature-list {
+    display: inline-block;
+    margin-bottom: 35px;
+}
+
+.dashboard-features-two .feature-list-icon {
+    margin-bottom: 20px;
 }
