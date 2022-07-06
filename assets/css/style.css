@@ -1,0 +1,245 @@
+/*---------------------------------------
+    Theme Name: 
+    Theme URI: 
+    Description: 
+    Author Name: 
+    Author URI: 
+    Version: 
+    Tags:
+    License:
+    License URI:
+    Text Domain:
+-----------------------------------------
+    Table of contents
+-----------------------------------------
+    1.0 Common CSS
+    2.0 Header Area
+    3.0 
+        
+/*---------------------------------------
+    1.0 Common CSS
+-----------------------------------------*/
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.common-btn{
+    color: #fff;
+    background-color: #29da77;
+    border: 1px solid #29da77;
+    padding: 14px 24px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.common-btn:hover{
+    color: #29da77;
+    background-color: #fff;
+}
+.v-middle{
+    align-items: center;
+}
+l {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+  
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: none; 
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+button:focus,
+.slick-slide {
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+.stoke{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #29da77;
+    opacity: 0.5;
+}
+.green{
+   color: #29da77;
+}
+.item-bounce{
+    animation: bounce 3s infinite ease-in-out;
+}
+/*---------------------------------------
+    2.0 Header Area
+-----------------------------------------*/
+.header-area{
+    padding-top: 50px;
+    background-color: #f3f7ff;
+    background-image: url(../images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header-area .header-top{
+    margin-bottom: 50px;
+}
+.header-area .header-top .logo img{
+    width: auto;
+}
+
+.header-area .header-top .main-menu ul li{
+    display: inline-block;
+    margin-left: 45px;
+}
+.header-area .header-top .main-menu ul li a{
+    color: #a9abb2;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 70px;
+}
+.header-area .header-top .main-menu ul li a:hover, 
+.header-area .header-top .main-menu ul li .active{
+    color: #151e3c;
+}
+
+.header-area .header-top .header-right{
+    display: flex;
+    align-items: center;
+}
+.header-area .header-top .header-right .header-right-button{
+    margin-left: 85px;
+}
+.header-area .header-bottom h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: #2e374f;
+    margin-bottom: 40px;
+}
+.header-area .header-bottom p{
+    font-size: 16px;
+    color: #2b2e35;
+    margin-bottom: 40px;
+}
+.header-area .header-bottom img{
+    width: 100%;
+}
+.header-area .header-bottom form {
+    position: relative;
+}
+.header-area .header-bottom form input[type=email]{
+    padding: 25px;
+    color: #91949a;
+    font-size: 14px;
+    border: 1px solid #e5e5e7;
+    width: 100%;
+    border-radius: 5px;
+}
+.header-area .header-bottom form input[type=submit]{
+    position: absolute;
+    right: 3%;
+    top: 12%;
+}
+
+/* Mobile Menu */
+.mobile-menu{
+    width: 100%;
+    /* background-color: #eeedff; */
+    display: none;
+    position: relative;
+}
+.mobile-menu .menu-top{
+    /* display: flex;
+    justify-content: space-between; */
+    padding: 20px;
+    align-items: center;
+}
+.mobile-menu .menu-top .mobile-logo{
+   height: 40px;
+   width: auto;
+}
+.mobile-menu .menu-top .menu-icon{
+   width: 25px;
+   height: 25px;
+   cursor: pointer;
+   position: absolute;
+   top: 30%;
+   right: 5%;
+}
+.menu-box{
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0 !important;
+    background-color: #eeedff;
+    padding: 50px;
+    z-index: 999;
+    transition: .5s;
+}
+.close-link{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.close-link img{
+    width: 50px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

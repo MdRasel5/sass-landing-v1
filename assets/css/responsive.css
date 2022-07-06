@@ -1,0 +1,79 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .header-top{
+        display: none;
+    }
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .header-area{
+        padding-top: 0;
+    }
+
+    .header-top{
+        display: none;
+    }
+    .header-area .header-bottom img{
+        display: none;
+        visibility: hidden;
+    }
+
+    .mobile-menu{
+        display: block;
+        margin-bottom: 75px;
+    }
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+
+    .header-area{
+        padding-top: 0;
+    }
+
+    .header-top{
+        display: none;
+    }
+    .header-area .header-bottom img{
+        display: none;
+        visibility: hidden;
+    }
+    .mobile-menu{
+        margin-bottom: 75px;
+        display: block;
+     }
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        width:450px;
+    }
+    .header-area{
+        padding-top: 0;
+    }
+
+    .header-top{
+        display: none;
+    }
+    .header-area .header-bottom img{
+        display: none;
+        visibility: hidden;
+    }
+    .mobile-menu{
+        display: block;
+        margin-bottom: 75px;
+    }
+}
