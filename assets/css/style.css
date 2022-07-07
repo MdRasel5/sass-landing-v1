@@ -16,6 +16,7 @@
     2.0 Header Area
     3.0 App Feature Area
     4.0 Dashboard Features Area
+    5.0 Customer Services Area
         
 /*---------------------------------------
     1.0 Common CSS
@@ -106,7 +107,9 @@ button {
 .item-bounce {
     animation: bounce 3s infinite ease-in-out;
 }
-
+.pt-100{
+    padding-top: 100px;
+}
 .pt-130 {
     padding-top: 130px;
 }
@@ -390,4 +393,48 @@ button {
 
 .dashboard-features-two .feature-list-icon {
     margin-bottom: 20px;
+}
+
+/*---------------------------------------
+    5.0 Customer Services Area
+-----------------------------------------*/
+.customer-service .customer-service-image {
+    margin-right: 20px;
+}
+
+.customer-service .customer-service-image img {
+    width: 100%;
+}
+
+.customer-service .customer-service-content .small-p {
+    font-size: 14px;
+    color: #29da77;
+    font-weight: bold;
+}
+
+.customer-service .customer-service-content h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.customer-service .feature-list {
+    display: flex;
+}
+
+.customer-service .feature-list img {
+    margin-right: 20px;
+}
+
+.customer-service .feature-list h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2b2e35;
+    margin-bottom: 15px;
+}
+
+.customer-service .feature-list p {
+    font-size: 14px;
+    color: #2b2e35;
+    margin-top: 3px;
 }

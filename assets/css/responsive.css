@@ -114,6 +114,17 @@
     .dashboard-features-two {
         padding: 50px 15px;
     }
+
+     /* Customer Service Area */
+     .customer-services {
+        padding: 50px 15px;
+    }
+    
+    .customer-service .customer-service-image{
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
 }
 
 /* Large Mobile :480px. */
