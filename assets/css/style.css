@@ -17,8 +17,9 @@
     3.0 App Feature Area
     4.0 Dashboard Features Area
     5.0 Customer Services Area
-    6.0 CTA Area
-    7.0 Footer Area
+    6.0 Testimonial Area
+    7.0 CTA Area
+    8.0 Footer Area
         
 /*---------------------------------------
     1.0 Common CSS
@@ -400,6 +401,10 @@ button {
 /*---------------------------------------
     5.0 Customer Services Area
 -----------------------------------------*/
+.customer-service a{
+    margin-top: 15px;
+    display: inline-block;
+}
 .customer-service .customer-service-image {
     margin-right: 20px;
 }
@@ -442,7 +447,96 @@ button {
 }
 
 /*---------------------------------------
-    6.0 CTA Area
+    6.0 Testimonial Area
+-----------------------------------------*/
+.testimonial-area{
+    background-image: url('../images/bg-shape-2.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+    position: relative;
+}
+
+.testimonial-area .small-p {
+    font-size: 14px;
+    color: #29da77;
+    font-weight: bold;
+}
+
+.testimonial-area h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.testimonial-area .testimonials{
+    padding: 30px;
+    background-image: url(../images/bg-shape.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: contain;
+}
+
+.testimonial-area .single-testimonial {
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    padding: 35px 30px;
+    border-radius: 15px;
+    
+}
+
+.testimonial-area .client-details{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.testimonial-area .client-details .client-name{
+    color: #29da77;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.testimonial-area .client-details .company-name{
+    color: #87929e;
+    font-size: 13px;
+}
+
+.testimonial-area .client-details .rating{
+    color: #fec42d;
+    font-size: 15px;
+}
+
+/* Slick Icons */
+.ts-slider-prev{
+    background: white;
+    position: absolute;
+    top: 80%;
+    color: #29da77;
+    left: -104%;
+    border: 1px solid #29da77;
+    padding: 5px;
+    border-radius: 50px;
+    line-height: 14px;
+    font-size: 14px;
+    height: 30px;
+    width: 30px;
+}
+.ts-slider-next{
+    background: #29da77;
+    position: absolute;
+    top: 80%;
+    color: #fff;
+    left: -96%;
+    border: 1px solid #29da77;
+    padding: 5px;
+    border-radius: 50px;
+    line-height: 14px;
+    font-size: 14px;
+    height: 30px;
+    width: 30px;
+}
+
+/*---------------------------------------
+    7.0 CTA Area
 -----------------------------------------*/
 .cta-area .container{
     background-color: #f3f7ff;
@@ -464,7 +558,7 @@ button {
 }
 
 /*---------------------------------------
-    7.0 Footer Area
+    8.0 Footer Area
 -----------------------------------------*/
 .footer-area{
     padding: 75px 0 35px 0;
@@ -483,6 +577,12 @@ button {
     line-height: 34px;
 }
 
+.footer-area .footer-nav-items .socials a{
+    font-size: 16px;
+}
+.footer-area .footer-nav-items .socials a:hover{
+    color: #29da77;
+}
 .footer-area .footer-nav{
     margin-bottom: 40px;
 }
@@ -503,3 +603,4 @@ button {
 .footer-area .footer-bottom .call a i{
     margin-right: 10px;
 }
+

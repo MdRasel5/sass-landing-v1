@@ -42,6 +42,14 @@
         margin-right: 0;
         margin-bottom: 30px;
     }
+    .dashboard-feature .dashboard-feature-image img{
+        max-width: 520px;
+    }
+
+    /* Customer Service Area */
+    .customer-service .customer-service-image img {
+        max-width: 520px;
+    }
 
     /* CTA Area */
     .cta-area h2{
@@ -131,11 +139,38 @@
         margin-bottom: 30px;
     }
 
+    .customer-service .customer-service-content h2{
+        font-size: 36px;
+    }
+    .customer-service .customer-service-content h2 br{
+        display: none;
+    }
+
     /* CTA Area */
     .cta-area h2{
         text-align: center;
         margin-bottom: 30px;
         font-size: 36px;
+    }
+
+    /* Footer Area */
+    .footer-area{
+        padding: 50px 15px;
+    }
+    .footer-area .footer-bottom p{
+        margin-bottom: 0!important;
+    }
+    
+    .footer-area .footer-bottom .call{
+        text-align: left;
+        margin-top: -15px;
+        margin-bottom: -15px;
+    }
+    .footer-area .footer-bottom .call a{
+        font-size: 22px;
+    }
+    .footer-area .footer-nav-items h2{
+        margin: 20px 0;
     }
 
 }
