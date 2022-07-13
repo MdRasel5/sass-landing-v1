@@ -17,6 +17,8 @@
     3.0 App Feature Area
     4.0 Dashboard Features Area
     5.0 Customer Services Area
+    6.0 CTA Area
+    7.0 Footer Area
         
 /*---------------------------------------
     1.0 Common CSS
@@ -437,4 +439,67 @@ button {
     font-size: 14px;
     color: #2b2e35;
     margin-top: 3px;
+}
+
+/*---------------------------------------
+    6.0 CTA Area
+-----------------------------------------*/
+.cta-area .container{
+    background-color: #f3f7ff;
+    padding: 60px 50px;
+}
+
+.cta-area h2{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.cta-area .cta-area-btn{
+    display: flex;
+    justify-content: center;
+}
+.cta-area .cta-area-btn a{
+    padding: 14px 50px;
+}
+
+/*---------------------------------------
+    7.0 Footer Area
+-----------------------------------------*/
+.footer-area{
+    padding: 75px 0 35px 0;
+}
+
+.footer-area .footer-nav-items h2{
+    color: #2a284f;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.footer-area .footer-nav-items a{
+    color: #2a284f;
+    font-size: 15px;
+    line-height: 34px;
+}
+
+.footer-area .footer-nav{
+    margin-bottom: 40px;
+}
+
+.footer-area .footer-bottom .logo{
+    margin-bottom: 20px;
+}
+
+.footer-area .footer-bottom .call{ 
+    text-align: right;
+}
+
+.footer-area .footer-bottom .call a{
+    font-size: 30px;
+    color: #29da77;
+    font-weight: bold;
+}
+.footer-area .footer-bottom .call a i{
+    margin-right: 10px;
 }

@@ -43,6 +43,12 @@
         margin-bottom: 30px;
     }
 
+    /* CTA Area */
+    .cta-area h2{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
 }
 
 
@@ -123,6 +129,13 @@
     .customer-service .customer-service-image{
         margin-right: 0;
         margin-bottom: 30px;
+    }
+
+    /* CTA Area */
+    .cta-area h2{
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 36px;
     }
 
 }
