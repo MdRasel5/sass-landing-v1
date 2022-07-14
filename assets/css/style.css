@@ -17,9 +17,10 @@
     3.0 App Feature Area
     4.0 Dashboard Features Area
     5.0 Customer Services Area
-    6.0 Testimonial Area
-    7.0 CTA Area
-    8.0 Footer Area
+    6.0 Pricing Area
+    7.0 Testimonial Area
+    8.0 CTA Area
+    9.0 Footer Area
         
 /*---------------------------------------
     1.0 Common CSS
@@ -446,8 +447,168 @@ button {
     margin-top: 3px;
 }
 
+
 /*---------------------------------------
-    6.0 Testimonial Area
+    6.0 Pricing Area
+-----------------------------------------*/
+.pricing-area .small-p {
+    font-size: 14px;
+    color: #29da77;
+    font-weight: bold;
+}
+
+.pricing-area h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.pricing-area .selector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-area .selector #selector-bar {
+    margin: 0 20px;
+    padding: 8px;
+    background-color: #29da77;
+    width: 40px;
+    height: 15px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+}
+
+.pricing-area .selector #selector-bar:hover {
+    opacity: .6;
+}
+
+.pricing-area .selector #selector-ball {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-decoration: 5000;
+}
+
+.pricing-area .selector h4 {
+    font-size: 14px;
+}
+
+.pricing-area .cards {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    padding: 35px 25px;
+    position: relative;
+    margin: 15px 0;
+}
+
+.pricing-area .cards .new {
+    display: inline-block;
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    background-color: #29da77;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 6px;
+    text-transform: uppercase;
+}
+
+.pricing-area .cards .card-top {
+    margin-bottom: 30px;
+}
+
+.pricing-area .cards .card-top span {
+    color: #7877ee;
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.pricing-area .cards h3 {
+    color: #2b2e35;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.pricing-area .cards h4 {
+    color: #5956e9;
+    font-size: 20px;
+}
+
+.pricing-area .cards h5 {
+    color: #5956e9;
+    font-size: 20px;
+    display: none;
+}
+
+.pricing-area .cards .feature-list {
+    margin: 40px 0 50px 0;
+}
+
+.pricing-area .cards .feature-list ul li {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.pricing-area .cards .feature-list ul li img {
+    width: 20px;
+    height: 24px;
+}
+
+.pricing-area .cards .feature-list ul li span {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.pricing-area .cards a {
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.pricing-area .cards .purple-btn {
+    color: #fff;
+    background-color: #7877ee;
+    border: 1px solid transparent;
+    padding: 14px 24px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 14px;
+    transition: .5s;
+}
+
+.pricing-area .cards .purple-btn:hover {
+    border: 1px solid #7877ee;
+    color: #7877ee;
+    background-color: #fff;
+}
+
+.pricing-area .cards .blue-btn {
+    color: #fff;
+    background-color: #0072fa;
+    border: 1px solid transparent;
+    padding: 14px 24px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 14px;
+    transition: .5s;
+}
+
+.pricing-area .cards .blue-btn:hover {
+    border: 1px solid #0072fa;
+    color: #0072fa;
+    background-color: #fff;
+}
+
+/*---------------------------------------
+    7.0 Testimonial Area
 -----------------------------------------*/
 .testimonial-area{
     background-image: url('../images/bg-shape-2.png');
@@ -536,7 +697,7 @@ button {
 }
 
 /*---------------------------------------
-    7.0 CTA Area
+    8.0 CTA Area
 -----------------------------------------*/
 .cta-area .container{
     background-color: #f3f7ff;
@@ -558,7 +719,7 @@ button {
 }
 
 /*---------------------------------------
-    8.0 Footer Area
+    9.0 Footer Area
 -----------------------------------------*/
 .footer-area{
     padding: 75px 0 35px 0;
