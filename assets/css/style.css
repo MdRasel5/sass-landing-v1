@@ -41,12 +41,25 @@ h1{
     font-weight: bold;
     line-height: 70px;
 }
-
+h2{
+    font-size: 48px;
+    color: #2b2e35;
+    margin-bottom: 40px;
+    line-height: 58px;
+    font-weight: bold;
+}
 p{
     font-size: 16px;
     color: #2b2e35;
     margin-bottom: 40px;
     line-height: 26px;
+}
+.small-p{
+    font-size: 16px;
+    margin-bottom: 28px!important;
+    text-transform: uppercase;
+    color: #29da77;
+    font-weight: 500;
 }
 a {
     text-decoration: none;
@@ -74,7 +87,7 @@ ul {
     background-color: #fff;
 }
 
-.v-middle {
+.align-items-center {
     align-items: center;
 }
 
@@ -125,6 +138,18 @@ button {
 .item-bounce {
     animation: bounce 3s infinite ease-in-out;
 }
+.pt-30{
+    padding-top: 30px;
+}
+.pt-50{
+    padding-top: 50px;
+}
+.pt-80{
+    padding-top: 80px;
+}
+.pt-90{
+    padding-top: 90px;
+}
 .pt-100{
     padding-top: 100px;
 }
@@ -135,11 +160,18 @@ button {
 .pt-140 {
     padding-top: 140px;
 }
-
+.pb-50{
+    padding-bottom: 50px;
+}
 .pb-100 {
     padding-bottom: 100px;
 }
-
+.pb-120{
+    padding-bottom: 120px;
+}
+.pb-130{
+    padding-bottom: 130px;
+}
 .pb-150 {
     padding-bottom: 150px;
 }
@@ -148,74 +180,41 @@ button {
     2.0 Header Area
 -----------------------------------------*/
 .header-area {
-    padding-top: 50px;
-    background-color: #f3f7ff;
-    background-image: url(../images/header-bg.png);
+    /* background-image: url(../images/header-bg.png); */
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
     background-position: center bottom;
 }
 
-.header-area .header-top {
-    margin-bottom: 80px;
-}
-
-.header-area .header-top .logo img {
+.header-area .logo img {
     width: auto;
 }
 
-.header-area .header-top .main-menu ul li {
+.header-area .main-menu ul li {
     display: inline-block;
     margin-left: 45px;
 }
 
-.header-area .header-top .main-menu ul li a {
+.header-area .main-menu ul li a {
     color: #a9abb2;
     font-size: 14px;
     font-weight: 500;
     line-height: 70px;
 }
 
-.header-area .header-top .main-menu ul li a:hover,
-.header-area .header-top .main-menu ul li .active {
+.header-area  .main-menu ul li a:hover,
+.header-area  .main-menu ul li .active {
     color: #151e3c;
 }
 
-.header-area .header-top .header-right {
+.header-area   .header-right {
     display: flex;
     align-items: center;
+    justify-content: end;
 }
 
-.header-area .header-top .header-right .header-right-button {
-    margin-left: 85px;
-}
-
-.header-area .header-bottom img {
-    width: 100%;
-}
-.header-area .header-bottom p{
-    margin-bottom: 60px;
-}
-.header-area .header-bottom form {
-    position: relative;
-    max-width: 500px;
-}
-
-.header-area .header-bottom form input[type=email] {
-    padding: 20px 5px 20px 30px;
-    color: #91949a;
-    font-size: 14px;
-    border: 1px solid #e5e5e7;
-    width: 100%;
-    border-radius: 5px;
-}
-
-.header-area .header-bottom form input[type=submit] {
-    position: absolute;
-    right: 3%;
-    top: 12%;
-    padding: 10px 30px;
+.header-area .header-right-button {
+    text-align: right;
 }
 
 /* Mobile Menu */
@@ -227,9 +226,6 @@ button {
 }
 
 .mobile-menu .menu-top {
-    /* display: flex;
-    justify-content: space-between; */
-    padding: 20px;
     align-items: center;
 }
 
@@ -302,19 +298,43 @@ button {
 }
 
 /*---------------------------------------
+    3.0 Hero Section
+-----------------------------------------*/
+.hero-section{
+    overflow: hidden;
+}
+.hero-section p{
+    margin-bottom: 40px;
+}
+.hero-section form {
+    position: relative;
+    max-width: 500px;
+}
+
+.hero-section form input[type=email] {
+    padding: 20px 5px 20px 30px;
+    color: #91949a;
+    font-size: 14px;
+    border: 1px solid #e5e5e7;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.hero-section form input[type=submit] {
+    position: absolute;
+    right: 3%;
+    top: 16%;
+    padding: 10px 30px;
+}
+
+
+
+/*---------------------------------------
     3.0 App Feature Area
 -----------------------------------------*/
-.app-features .app-feature-content h2 {
-    font-size: 48px;
-    font-weight: bold;
-    margin-bottom: 45px;
+.app-features{
+    
 }
-
-.app-features .app-feature-content p {
-    color: #29da77;
-    font-weight: bold;
-}
-
 .app-features .single-feature {
     text-align: center;
     background-color: #fff;
@@ -325,7 +345,7 @@ button {
     margin-bottom: 30px;
 }
 
-.app-features .single-feature h2 {
+.app-features .single-feature span {
     font-size: 72px;
     font-weight: bold;
     position: absolute;
@@ -346,29 +366,18 @@ button {
     4.0 Dashboard Features Area
 -----------------------------------------*/
 .dashboard-feature .dashboard-feature-image {
-    margin-right: 20px;
-}
-
-.dashboard-feature .dashboard-feature-image img {
-    width: 100%;
-}
-
-.dashboard-feature .dashboard-feature-content .small-p {
-    font-size: 14px;
-    color: #29da77;
-    font-weight: bold;
-}
-
-.dashboard-feature .dashboard-feature-content h2 {
-    font-size: 48px;
-    font-weight: bold;
-    margin-bottom: 35px;
+    position: relative;
+    left: -118px;
 }
 
 .dashboard-feature .feature-list {
     display: flex;
     align-items: center;
     margin-bottom: 15px;
+}
+
+.dashboard-feature .feature-list:last-child{
+    margin-bottom: 0;
 }
 
 .dashboard-feature .feature-list img {
@@ -382,7 +391,6 @@ button {
     margin-bottom: 15px;
 }
 
-
 /* Dashobard Features Part Two */
 .dashboard-features-two .feature-list {
     display: inline-block;
@@ -391,6 +399,15 @@ button {
 
 .dashboard-features-two .feature-list-icon {
     margin-bottom: 20px;
+}
+
+.dashboard-features-two .dashboard-feature-image img{
+    width: auto;
+}
+
+.dashboard-features-two .dashboard-feature .dashboard-feature-image{
+    position: relative;
+    left: 0;
 }
 
 /*---------------------------------------
@@ -408,18 +425,6 @@ button {
     width: 100%;
 }
 
-.customer-service .customer-service-content .small-p {
-    font-size: 14px;
-    color: #29da77;
-    font-weight: bold;
-}
-
-.customer-service .customer-service-content h2 {
-    font-size: 48px;
-    font-weight: bold;
-    margin-bottom: 35px;
-}
-
 .customer-service .feature-list {
     display: flex;
 }
@@ -428,27 +433,13 @@ button {
     margin-right: 20px;
 }
 
-.customer-service .feature-list h3 {
-    font-size: 20px;
-    font-weight: bold;
-    color: #2b2e35;
-    margin-bottom: 15px;
+.customer-service .feature-list .feature-list-text p{
+    margin-bottom: 20px;
 }
 
 /*---------------------------------------
     6.0 Pricing Area
 -----------------------------------------*/
-.pricing-area .small-p {
-    font-size: 14px;
-    color: #29da77;
-    font-weight: bold;
-}
-
-.pricing-area h2 {
-    font-size: 48px;
-    font-weight: bold;
-    margin-bottom: 25px;
-}
 
 .pricing-area .selector {
     display: flex;
@@ -604,17 +595,6 @@ button {
     position: relative;
 }
 
-.testimonial-area .small-p {
-    font-size: 14px;
-    color: #29da77;
-    font-weight: bold;
-}
-
-.testimonial-area h2 {
-    font-size: 48px;
-    font-weight: bold;
-    margin-bottom: 35px;
-}
 
 .testimonial-area .testimonials{
     padding: 30px;
@@ -691,12 +671,6 @@ button {
     padding: 60px 50px;
 }
 
-.cta-area h2{
-    font-size: 48px;
-    font-weight: bold;
-    margin-bottom: 0;
-}
-
 .cta-area .cta-area-btn{
     display: flex;
     justify-content: center;
@@ -710,13 +684,6 @@ button {
 -----------------------------------------*/
 .footer-area{
     padding: 75px 0 35px 0;
-}
-
-.footer-area .footer-nav-items h2{
-    color: #2a284f;
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 20px;
 }
 
 .footer-area .footer-nav-items a{

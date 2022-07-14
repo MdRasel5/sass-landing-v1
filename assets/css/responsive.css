@@ -9,23 +9,45 @@
         display: none;
     }
 
+    /* Dashboard Area */
+
+    .dashboard-feature .dashboard-feature-image img{
+        width: auto;
+    }
+
+    .header-area .main-menu ul li{
+        margin-left: 25px;
+    }
+
 }
 
 
 /* Tablet desktop :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
 
+    /* Common Css */
+    h1{
+        margin-bottom: 30px;
+    }
+
+    p{
+        margin-bottom: 30px!important;
+    }
     /* Header Area */
     .header-area {
         padding-top: 0;
         background-image: none;
         background-color: #fff;
-
     }
 
-    .header-top {
+    .header-desktop {
         display: none;
     }
+
+    .header-area .main-menu ul li {
+        margin-left: 25px;
+    }
+    
 
     .header-area .header-bottom img {
         display: none;
@@ -34,23 +56,52 @@
 
     .mobile-menu {
         display: block;
-        margin-bottom: 75px;
+        margin-bottom: 30px;
+    }
+
+    /* Hero Section */
+    .hero-section .hero-right{
+        display: none;
+    }
+    .mobile-menu .menu-top {
+        padding-top: 30px;
+    }
+
+    /* App Features Area */
+    .app-features{
+        padding: 120px 0;
     }
 
     /* Dashbaord Feature Area */
+    .dashboard-features{
+        padding: 120px 0;
+    }
     .dashboard-feature .dashboard-feature-image {
-        margin-right: 0;
-        margin-bottom: 30px;
-    }
-    .dashboard-feature .dashboard-feature-image img{
-        max-width: 520px;
+        display: none;
     }
 
+    .feature-list-text p{
+        margin-bottom: 15px!important;
+    }
+
+    /* Dashbaord Feature Area Two */
+    .dashboard-features-two{
+        padding: 120px 0;
+    }
+  
     /* Customer Service Area */
-    .customer-service .customer-service-image img {
-        max-width: 520px;
+    .customer-services{
+        padding-top: 120px;
     }
 
+    .customer-service .customer-service-image{
+        display: none;
+    }
+
+    .customer-service .customer-service-content h2 br{
+        display: none;
+    }
+    
     /* CTA Area */
     .cta-area h2{
         text-align: center;
