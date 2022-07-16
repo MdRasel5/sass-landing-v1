@@ -48,6 +48,30 @@ h2{
     line-height: 58px;
     font-weight: bold;
 }
+
+h3{
+    font-size: 30px;
+    color: #2b2e35;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+h4{
+    font-size: 24px;
+    color: #2b2e35;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+h5{
+    font-size: 20px;
+    color: #2b2e35;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+
+
 p{
     font-size: 16px;
     color: #2b2e35;
@@ -56,7 +80,7 @@ p{
 }
 .small-p{
     font-size: 16px;
-    margin-bottom: 28px!important;
+    margin-bottom: 15px!important;
     text-transform: uppercase;
     color: #29da77;
     font-weight: 500;
@@ -359,7 +383,6 @@ button {
     color: #000;
     font-weight: bold;
     margin-bottom: 25px;
-
 }
 
 /*---------------------------------------
@@ -445,6 +468,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .pricing-area .selector #selector-bar {
@@ -472,9 +496,6 @@ button {
     text-decoration: 5000;
 }
 
-.pricing-area .selector h4 {
-    font-size: 14px;
-}
 
 .pricing-area .cards {
     background-color: #fff;

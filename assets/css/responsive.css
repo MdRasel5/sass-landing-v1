@@ -11,12 +11,30 @@
 
     /* Dashboard Area */
 
-    .dashboard-feature .dashboard-feature-image img{
-        width: auto;
+    .dashboard-feature .dashboard-feature-image {
+        display: none;
     }
 
     .header-area .main-menu ul li{
         margin-left: 25px;
+    }
+
+    /* Customer Service Area */
+
+    .customer-service .customer-service-image img{
+        display: none;
+    }
+
+    /* app-features */
+
+    .app-features{
+        background-image: none;
+        background-color: #f3f7ff;
+        padding: 120px 0;
+    }
+
+    .app-features .container{
+        padding-top: 0;
     }
 
 }
@@ -55,8 +73,8 @@
     }
 
     .mobile-menu {
-        display: block;
         margin-bottom: 30px;
+        display: block;
     }
 
     /* Hero Section */
@@ -67,15 +85,20 @@
         padding-top: 30px;
     }
 
-    /* App Features Area */
-    .app-features{
+     /* app-features */
+
+     .app-features{
+        background-image: none;
+        background-color: #f3f7ff;
         padding: 120px 0;
     }
 
-    /* Dashbaord Feature Area */
-    .dashboard-features{
-        padding: 120px 0;
+    .app-features .container{
+        padding-top: 0;
     }
+
+    /* Dashbaord Feature Area */
+   
     .dashboard-feature .dashboard-feature-image {
         display: none;
     }
@@ -85,14 +108,9 @@
     }
 
     /* Dashbaord Feature Area Two */
-    .dashboard-features-two{
-        padding: 120px 0;
-    }
-  
+    
     /* Customer Service Area */
-    .customer-services{
-        padding-top: 120px;
-    }
+  
 
     .customer-service .customer-service-image{
         display: none;
@@ -101,10 +119,18 @@
     .customer-service .customer-service-content h2 br{
         display: none;
     }
+
+   
+    
     
     /* CTA Area */
     .cta-area h2{
         text-align: center;
+        margin-bottom: 30px;
+    }
+
+    /* Footer Area */
+    .footer-area .footer-nav-items{
         margin-bottom: 30px;
     }
 
@@ -114,23 +140,27 @@
 /* small mobile :320px. */
 @media (max-width: 767px) {
 
+    /* Common CSS */
+    .px-15{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
     /* Header Area */
     .common-btn {
         padding: 10px 14px;
     }
 
     .header-area {
-        padding-top: 0;
         background-image: none;
         background-color: #fff;
-        height: 85vh;
     }
 
     .header-area .header-bottom h1 {
         font-size: 42px;
     }
 
-    .header-top {
+    .header-desktop {
         display: none;
     }
 
@@ -144,46 +174,49 @@
     }
 
     .mobile-menu {
-        margin-bottom: 75px;
+        margin-bottom: 30px;
         display: block;
     }
 
+    /* Hero Section */
+   
+    .hero-section .hero-right{
+        display: none;
+    }
+
     /* App Features Area */
-    .app-features {
+
+     /* app-features */
+
+     .app-features{
+        background-image: none;
+        background-color: #f3f7ff;
         padding: 50px 15px;
     }
 
-    .app-features .app-feature-content h2 {
-        font-size: 32px;
+    .app-features .container{
+        padding-top: 0;
     }
-
+   
     .app-features .single-feature {
         padding: 40px;
     }
 
     /* Dashbaord Feature Area */
-    .dashboard-features {
-        padding: 50px 15px;
-    }
 
     .dashboard-feature .dashboard-feature-content h2 {
         font-size: 32px;
     }
 
     .dashboard-feature .dashboard-feature-image {
-        margin-right: 0;
-        margin-bottom: 30px;
+        display: none;
     }
 
     /* Dashboard Feature Part Two */
-    .dashboard-features-two {
-        padding: 50px 15px;
-    }
+
 
      /* Customer Service Area */
-     .customer-services {
-        padding: 50px 15px;
-    }
+
     
     .customer-service .customer-service-image{
         margin-right: 0;
@@ -198,9 +231,8 @@
     }
 
     /* Pricing Area */
-    .pricing-area {
-        padding: 50px 15px;
-    }
+
+    
 
     /* CTA Area */
     .cta-area h2{
@@ -210,9 +242,7 @@
     }
 
     /* Footer Area */
-    .footer-area{
-        padding: 50px 15px;
-    }
+ 
     .footer-area .footer-bottom p{
         margin-bottom: 0!important;
     }
@@ -229,20 +259,24 @@
         margin: 20px 0;
     }
 
+    .footer-area .footer-nav-items{
+        margin-bottom: 30px;
+    }
+
 }
 
 /* Large Mobile :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+     /* Common CSS */
+     .px-15{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
     .container {
         width: 450px;
     }
 
     /* Header Area */
-    .header-area {
-        padding-top: 0;
-        padding: 0 15px;
-        height: 80vh;
-    }
 
     .header-area .header-bottom h1 {
         font-size: 42px;
@@ -256,21 +290,5 @@
         display: none;
         visibility: hidden;
     }
-
-    .mobile-menu {
-        display: block;
-        margin-bottom: 75px;
-    }
-
-    /* App Features Area */
-    .app-features {
-        padding: 50px 15px;
-    }
-
-    /* Dashbaord Feature Area */
-    .dashboard-features {
-        padding: 50px 15px;
-    }
-
 
 }
